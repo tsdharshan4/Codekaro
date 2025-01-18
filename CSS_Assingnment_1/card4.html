@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card4</title>
+    <link rel="stylesheet" href="card4.css">
+</head>
+<body>
+    <div class="card-section">
+        <span class="card-icon">🏤</span>
+        <h1 class="main-text">Your Company</h1>
+        <p class="sub-text">Tell us about your company. You will be able to invite your teammates in the next step.</p>
+        <div class="input-group">
+            <label for="txtCompanyName" class="input-labels">Company Name</label>
+            <input type="text" id="txtCompanyName" class="input-field" placeholder="Company Name">
+        </div>
+        <div class="input-group">
+            <label for="ddlIndustry" class="input-labels">Industry (Optional)</label>
+            <select name="ddlIndustry" id="ddlIndustry" class="input-dropdowns">
+                <option value="CreativeAgency" class="dropdown-items">Creative Agency</option>
+                <option value="Ecommerce" class="dropdown-items">Ecommerce</option>
+                <option value="Education" class="dropdown-items">Education</option>
+            </select>
+        </div>
+        <div class="input-group"> 
+            <label for="ddlYourRole" class="input-labels">Your Role (Optional)</label>
+            <select name="ddlYourRole" id="ddlYourRole" class="input-dropdowns">
+                <option value="Owner" class="dropdown-items">Owner / Founder / CEO</option>
+                <option value="Manager" class="dropdown-items">Manager</option>
+                <option value="Employee" class="dropdown-items">Employee</option>
+            </select>
+        </div>
+        <div class="input-group">   
+            <label for="ddlCompanySize" class="input-labels">Comapny Size (Optional)</label>
+            <Select name="ddlCompanySize" id="ddlCompanySize" class="input-dropdowns">
+                <option value="2-10" class="dropdown-items">2-10</option>
+                <option value="11-50" class="dropdown-items">11-50</option>
+                <option value="51-200" class="dropdown-items">51-200</option>
+            </Select>
+        </div>
+        
+        <button class="btn">Submit</button>
+    </div>
+</body>
+</html>

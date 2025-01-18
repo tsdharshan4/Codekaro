@@ -1,0 +1,69 @@
+body{
+    background-color: #ededef;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card1-section{
+    width:520px;
+    height: 470px;
+    border-radius: 14px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+.phone-icon{
+    font-size: 45px;
+    padding-top: 15px;
+}
+.main-text{
+    font-size: 40px;
+}
+.sub-text{
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #646464;
+}
+
+.btn{
+    width: 80%;
+    text-align: left;
+    margin:10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: #333335;
+}
+.btn:hover{
+    background-color: #ededef;
+}
+.icon{
+    margin: 10px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24;
+  display: none !important;
+}
+.button-new:hover .new-arrow{
+    display: inline-block !important;
+    padding-top: 2px !important;
+    padding-left: 150px !important;
+}
+.button-existing:hover .existing-arrow{
+    display: inline-block !important;
+    padding-top: 2px !important;
+    padding-left: 135px !important;
+}
+.footer-text{
+    color: #b4b4b4;
+    padding: 0 10px 0 10px;
+}

@@ -1,0 +1,63 @@
+body{
+    background-color: #ededef;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card1-section{
+    width:450px;
+    height: 400px;
+    border-radius: 14px;
+    margin: 150px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+.hand-wave-icon{
+    font-size: 45px;
+}
+.main-text{
+    font-size: 40px;
+}
+.sub-text{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #646464;
+}
+
+.btn{
+    width: 80%;
+    text-align: left;
+    margin:10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: #333335;
+}
+.btn:hover{
+    background-color: #ededef;
+}
+.icon{
+    margin: 10px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24;
+  display: none !important;
+}
+.button-personal:hover .personal-arrow{
+    display: inline-block !important;
+    padding-top: 2px !important;
+    padding-left: 165px !important;
+}
+.button-work:hover .work-arrow{
+    display: inline-block !important;
+    padding-top: 2px !important;
+    padding-left: 195px !important;
+}
