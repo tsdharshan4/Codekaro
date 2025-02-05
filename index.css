@@ -1,0 +1,192 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(36,36,36);
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 8.000%, rgba(0, 0, 0, 0.8465) 15.67%, rgba(0, 0, 0, 0.8361) 23.33%, rgba(0, 0, 0, 0.8187) 31.00%, rgba(0, 0, 0, 0.7944) 38.67%, rgba(0, 0, 0, 0.7632) 46.33%, rgba(0, 0, 0, 0.7250) 54.00%, rgba(0, 0, 0, 0.6868) 61.67%, rgba(0, 0, 0, 0.6556) 69.33%, rgba(0, 0, 0, 0.6312) 77.00%, rgba(0, 0, 0, 0.6139) 84.67%, rgba(0, 0, 0, 0.6035) 92.33%, rgba(0, 0, 0, 0.6000) 100.0%);
+
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-img{
+    transform: scale(1);
+}
+.tint{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.119);
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 8.000%, rgba(0, 0, 0, 0.8465) 15.67%, rgba(0, 0, 0, 0.8361) 23.33%, rgba(0, 0, 0, 0.8187) 31.00%, rgba(0, 0, 0, 0.7944) 38.67%, rgba(0, 0, 0, 0.7632) 46.33%, rgba(0, 0, 0, 0.7250) 54.00%, rgba(0, 0, 0, 0.6868) 61.67%, rgba(0, 0, 0, 0.6556) 69.33%, rgba(0, 0, 0, 0.6312) 77.00%, rgba(0, 0, 0, 0.6139) 84.67%, rgba(0, 0, 0, 0.6035) 92.33%, rgba(0, 0, 0, 0.6000) 100.0%);
+}
+.content{
+    position: absolute;
+    color: white;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 56px;    
+    font-weight: 900;
+    text-align: center;
+    width: 600px;
+}
+.nav-bar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    top:7%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.nav-buttons{
+    display: flex;
+    gap: 20px;
+}
+.sign-in-btn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 8px 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #ff0000;
+    font-size: 14px;
+}
+.language-btn{
+    background-color:rgba(0, 0, 0, 0.334);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 8px 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+.logo-svg{
+    fill: #ff0000;
+    width: 140px;
+
+}
+.plan-info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;    
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.plan-prompt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;    
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+.content-fields{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-input{
+    padding: 20px;
+    border: 0;
+    width: 56%;
+    background-color: rgba(0, 0, 0, 0.375);
+    border: 1px solid white;
+    border-radius: 4px; 
+}
+.content-btn{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    width: 32%;
+    padding: 12px 12px;
+    background-color:red;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;    
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.container{
+    width: 1200px;
+    color: white;
+    display: flex;
+    margin: 100px auto;
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    }
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right{
+    width: 50%;
+}
+.tv{
+    margin-top: -13%;
+    width: 40%;
+    position: absolute;
+}
+.video{
+    width:30%;
+    margin-top: -6.7%;
+    margin-left: 5%;
+    position: absolute;
+}
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 42px;    
+    font-weight: 900;
+}
+.sub-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;    
+    font-weight: 600;
+}
+.video1{
+    width:23%;
+    margin-top: -10%;
+    margin-left: 10%;
+    position: absolute;
+}
+.faq-container{
+    width:1200px;
+    margin:60px auto;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.faq{
+    background-color: rgb(45, 45, 45);;
+    padding: 24px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.faq:hover{
+    background-color: rgb(67, 67, 67);
+    cursor: pointer;
+}
+.faq-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
