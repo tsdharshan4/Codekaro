@@ -1,0 +1,224 @@
+body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 660px) {
+    .nav-logo {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .nav-bar {
+        display: flex;
+        margin: 8px;
+        align-items: center;
+        gap: 15px;
+        justify-content: space-between;
+    }
+
+    .nav-mmenu {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .nav-menu-links {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu-link-arrow {
+        transform: rotate(90) !important;
+    }
+
+    .nav-menu-items {
+        display: flex;
+        gap: 15px;
+        justify-content: space-around;
+    }
+
+    .nav-menu-btn-Login {
+        padding: 15px 20px;
+        background-color: white;
+        color: black;
+        border: 2px solid rgb(164, 164, 164);
+        border-radius: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .nav-menu-btn-Signup {
+        padding: 15px 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .nav-menu-buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .main-content {
+        margin: 5px auto;
+        width: 80%;
+        height: 60vh;
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        background-color: rgb(226, 246, 226);
+        border-radius: 15px;
+    }
+
+    .last-update-info {
+        background-color: rgb(203, 219, 207);
+        margin-top: -30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+    }
+
+    .course-header {
+        width: 70%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: -45px;
+    }
+
+    .course-desc {
+        width: 50%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: -55px;
+    }
+
+    .last-update-info-txt {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    video {
+        width: auto;
+        height: 50vh;
+        border-radius: 30px;
+    }
+    .nav-menu-btn-hamburger{
+        display: none;
+    }
+}
+@media screen and (max-width: 660px) {
+    .nav-logo {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .nav-bar {
+        display: flex;
+        margin: 8px;
+        align-items: center;
+        gap: 15px;
+        justify-content: space-between;
+    }
+
+    .nav-mmenu {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .nav-menu-links {
+        display: none;
+    }
+
+    .nav-menu-link-arrow {
+        transform: rotate(90) !important;
+    }
+
+    .nav-menu-items {
+        display: flex;
+        gap: 15px;
+        justify-content: space-around;
+    }
+
+    .main-content {
+        margin: 5px auto;
+        width: 80%;
+        height: 60vh;
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        background-color: rgb(226, 246, 226);
+        border-radius: 15px;
+    }
+
+    .last-update-info {
+        background-color: rgb(203, 219, 207);
+        margin-top: -30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 30px;
+    }
+
+    .course-header {
+        width: 90%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: -35px;
+    }
+
+    .course-desc {
+        width: 82%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: -45px;
+    }
+
+    .last-update-info-txt {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    video {
+        width: 90vw;
+        height: auto;
+        border-radius: 30px;
+    }
+    
+    .nav-menu-btn-Login {
+        display: none;
+    }
+
+    .nav-menu-btn-Signup {
+        display: none;
+    }
+    .nav-menu-btn-hamburger{
+        display: block;
+        border: none;
+        background-color: white;
+    }
+}
